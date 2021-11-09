@@ -1,0 +1,660 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-size: 1.6rem;
+    line-height: 1.2em;
+    background-color:#424549;
+    font-family: 'JetBrains Mono', monospace;
+    color: rgb(230, 230, 230);
+    margin: 0%;
+}
+
+main{
+    margin: 2%;
+    transition: all 0.7s;
+}
+
+.main2{
+    margin: 0%;
+}
+
+header {
+    text-align: left;
+    background-color:#282b30;
+    font-size: 2rem;
+    margin: 0%;
+    box-shadow: 0px 15px 15px rgba(0,0,0,0.4);
+    position: sticky;
+    top: 0px;
+}
+
+footer {
+    text-align: center;
+    color:#72787e;
+    background-color:#282b30;
+    font-size: 1rem;
+    line-height: 1rem;
+    box-shadow: 0px -15px 15px rgba(0,0,0,0.4);
+    padding: 25px;
+    transition: all 0.7s;
+}
+
+footer a{
+    color: #72787e;
+}
+
+nav a {
+    color:#f9a61d;
+    padding: 10px 2%;
+    text-decoration: none; 
+}
+
+
+.pad{
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+
+nav .a{
+    transition: all 0.7s;
+}
+
+nav .a:hover{
+    box-shadow: 10px 5px 5px rgba(0,0,0,0.4);
+    background: linear-gradient(#2f3338, #282b30);
+
+    transform: scale(0.8);
+}
+
+a{
+    color: #f9a61d;
+    text-decoration: none; 
+}
+
+img{
+    margin: 10px;
+}
+
+.logo{
+    margin-top: 0px;
+    margin-bottom: 0px;
+    height: 100px;
+    filter: drop-shadow(0 0 0.75rem #f9a61d);}
+
+hr{
+    margin-left: 30%;
+    margin-right: 30%;
+}
+
+.verthr{
+    width: 7px;
+    height:700px;
+    background-color:black;
+    border-radius: 5px;
+}
+
+.half{
+    width: 45%;
+}
+
+.verthr2{
+    width: 7px;
+    height:300px;
+    background-color:black;
+    border-radius: 5px;
+}
+
+h1{
+    line-height: 1.2em;
+}
+
+.h1{
+    font-size: 3rem;
+}
+
+h2{
+    line-height: 1.1em;
+}
+
+.boxnav {
+    display: flex;
+    align-items: center;
+}
+
+
+
+.boxcontact{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+.inlay {
+    -moz-box-shadow: inset 10px 10px 50px rgba(0, 0, 0, 0.7);
+    -webkit-box-shadow: inset 10px 10px 50px rgba(0, 0, 0, 0.7);
+    box-shadow: inset 10px 10px 50px rgba(0, 0, 0, 0.7);
+}
+
+.ruchecon{
+    width: 100%;
+    height: 500px;
+    background: url(image/rucheconnecte.jpg) center/100% no-repeat;
+    align-items: end;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.ruchecon > h1{
+    margin: 0px;
+    color: #f9a61d;
+    text-shadow: 2px 2px 14px #282b30;
+}
+
+.piti{
+    width: 250px;
+    object-fit:contain
+}
+
+.confiance{
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 50px;
+}
+
+.bTitre{
+    color: #f9a61d;
+}
+
+.badges{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+
+.badge{
+    width: 700px;
+}
+
+.histoire{
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-bottom: 100px;
+}
+
+.margin{
+    margin-left: 40px;
+    margin-right: 40px;
+    align-content: start;
+    margin-bottom: 210px;
+}
+
+.margin1{
+    margin-left: 40px;
+    margin-right: 40px;
+    align-content: start;
+    margin-top: 0;
+}
+
+.margin2{
+    margin-left: 23%;
+    margin-right: 23%;
+}
+
+.image1{
+    width: 700px;
+}
+
+.image2{
+    width: 500px;
+}
+
+.margin3{
+    margin-left: 25%;
+    margin-right: 25%;
+}
+
+
+.boxindex{
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    margin-top: 50px;
+    justify-content: space-between;
+}
+
+.centerheader{
+    display: flex;
+    justify-content: center;
+    margin: 20px;
+    color: #f9a61d;
+}
+
+.justify{
+    text-align: justify;
+    font-size: 1.3rem;
+}
+
+.shadow{
+    box-shadow: 0px 0px 15px rgba(0,0,0,0.4);
+}
+
+.lighter{
+    background-color: #585858;
+    color: black;
+}
+
+.cropfleur{
+    width: 700px;
+    height: 400px;
+    object-fit: none;
+    object-position: 40% 0;
+    margin-left: 100px;
+}
+
+.cropruche{
+    width: 700px;
+    height: 400px;
+    object-fit:cover;
+    object-position: 40% 0;
+}
+
+.darker{
+    background-color: #383b3d;
+}
+
+.padding{
+    padding: 20px;
+}
+
+.padding1{
+    padding-top: 40px;
+}
+
+.legal{
+    margin-left: 25%;
+    margin-right: 25%;
+    margin-top: 50px;
+}
+
+.center{
+    text-align: center;
+}
+
+.little{
+    font-size: 0.7rem;
+    line-height: 0.9rem;
+}
+
+.big{
+    font-size: 1.5em;
+    line-height: 1.2em;
+}
+
+.mention-legale{
+    font-size: 1.2rem;
+}
+
+.presence{
+    color:#f1c784;
+}
+
+.column{
+    flex-flow: wrap column;
+}
+
+.box{
+    display: flex;
+    padding: 3%;
+    line-height: 1.5rem;
+    margin-top: 40px;
+}
+
+.black{
+    background-color: rgb(42, 42, 42);
+}
+
+.little2{
+    font-size: 1.2rem;
+    line-height: 1.6rem;
+}
+
+.buy_sell{
+    height: 30%;
+    width: 30%;
+}
+
+.wallet{
+    height: 40%;
+    width: 40%;
+}
+
+.crypto{
+    height: 50%;
+    width: 50%;
+}
+
+.graph{
+    height: 50%;
+    width: 50%;
+}
+
+.discord{
+    height: 30%;
+    width: 30%;
+}
+
+.github{
+    height: 30%;
+    width: 30%;
+}
+
+.twitter{
+    height: 30%;
+    width: 30%;
+}
+
+.mail{
+    height: 30%;
+    width: 30%;
+}
+
+.margin-bottom{
+    margin-bottom: 70px;
+}
+
+.margin-top{
+    margin-top: 70px;
+}
+
+.titre{
+    color: #f9a61d;
+    font-size: 2.5rem;
+}
+
+input {
+    margin-bottom: 20px;
+    background-color: #373B3D;
+    color: rgb(230, 230, 230);
+    border: none;
+    height: 30px;
+    width: 70%;
+    font-size: 1.2rem;
+}
+
+.bouton {
+    height: 35px;
+    width: 80px;
+}
+
+textarea{
+    margin-bottom: 20px;
+    background-color: #373B3D;
+    color: rgb(230, 230, 230);
+    border: none;
+    font-size: 1.2rem;
+    width: 80%;
+    height: 200px;
+}
+
+.p-contact {
+    margin-bottom: 5px;
+}
+
+.container{
+    flex-direction: column;
+    align-items:flex-start;
+}
+
+.margin-left{
+    margin-left: 10%;
+}
+
+.error{
+    margin-top: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+@media (min-width:1200px){
+    .sell{
+        padding-right: 0px;
+        padding-left: 0px;
+    }
+}
+
+@media (min-width:850px){
+    nav{
+        padding-right: 40px;
+    }
+}
+
+@media (max-width: 1200px) { /*Petit écran PC ou tablette*/
+    header{
+        font-size: 1.3rem;
+        line-height: 1.4rem;
+    }
+
+    body {
+        font-size: 1rem;
+        line-height: 1.2rem;
+        margin: 0%;
+    }
+
+    footer {
+        text-align: center;
+        font-size: 0.7rem;
+        line-height: 0.8rem;
+        box-shadow: 0px -15px 15px rgba(0,0,0,0.4);
+        padding: 25px;
+    }
+
+    h1{
+        line-height: 1.2em;
+    }
+
+    h2{
+        line-height: 1.1em;
+    }
+
+    .boxindex{
+        padding: 20px;
+    }
+
+    .little{
+        font-size: 0.6rem;
+        line-height: 0.8rem;
+    }
+    
+    .mention-legale{
+        font-size: 1rem;
+    }
+
+    .margin2{
+        margin-left: 20%;
+        margin-right: 20%;
+    }
+
+    .margin3{
+        margin-left: 20%;
+        margin-right: 20%;
+    }
+
+
+    .legal{
+        margin-left: 20%;
+        margin-right: 20%;
+        margin-top: 50px;
+    }
+
+    .margin1{
+        margin-left: 10%;
+        margin-right: 10%;
+    }
+    
+    .buy_sell{
+        height: 50%;
+        width: 50%;
+    }
+
+    .sell{
+        flex-direction: column;
+    }
+
+    .wallet{
+        height: 40%;
+        width: 40%;
+    }
+
+    .crypto{
+        height: 50%;
+        width: 50%;
+    }
+
+    .graph{
+        height: 50%;
+        width: 50%;
+    }
+
+    .little2{
+        font-size: 0.9rem;
+        line-height: 1rem;
+    }
+}
+
+@media (max-width: 850px) { /*Telephone ou autre écran vertical*/
+
+    body{
+        font-size: 0.9rem;
+        line-height: 1rem;
+    }
+    
+    hr{
+        margin-left: 20%;
+        margin-right: 20%;
+    }
+
+    header{
+        font-size: 1.5rem;
+        line-height: 1.0em;
+        position: relative;
+    }
+    
+    h1{
+        line-height: 1.2em;
+    }
+
+    h2{
+        line-height: 1.1em;
+    }
+
+    .no_display_mobile{
+        display: none;
+    }
+    
+    .boxnav {
+        flex-direction: column;
+    }
+
+    .margin1{
+        margin-left: 10%;
+        margin-right: 10%;
+    }
+    
+    .margin2{
+        margin-left: 10%;
+        margin-right: 10%;
+    }
+
+    .margin3{
+        margin-left: 10%;
+        margin-right: 10%;
+    }
+
+    .legal{
+        margin-left: 10%;
+        margin-right: 10%;
+        margin-top: 50px;
+    }
+
+    .boxindex{
+        flex-direction: column;
+    }
+    
+    .buy_sell{
+        height: 80%;
+        width: 80%;
+    }
+
+    .wallet{
+        height: 90%;
+        width: 90%;
+    }
+
+    .crypto{
+        height: 90%;
+        width: 90%;
+    }
+
+    .graph{
+        height: 90%;
+        width: 90%;
+    }
+
+    .little2{
+        font-size: 0.8rem;
+        line-height: 0.9rem;
+    }
+
+    .margin-bottom{
+        margin-bottom: 45px;
+    }
+
+    input {
+        margin-bottom: 20px;
+        height: 30px;
+        width: 90%;
+        font-size: 0.8rem;
+    }
+    
+    .bouton {
+        height: 35px;
+        width: 80px;
+    }
+    
+    textarea{
+        margin-bottom: 20px;
+        background-color: #373B3D;
+        color: rgb(230, 230, 230);
+        border: none;
+        font-size: 1rem;
+        width: 100%;
+        height: 150px;
+    }
+    
+    .p-contact {
+        margin-bottom: 5px;
+    }
+    
+    .container{
+        flex-direction: column;
+        align-items:flex-start;
+    }
+    
+    .margin-left{
+        margin-left: 0%;
+    }
+}
+
+
+@media (max-width: 440px) { 
+    .h1{
+        font-size: 2.3rem;
+    }
+}
